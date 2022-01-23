@@ -1,7 +1,5 @@
-import os
 import pandas as pd
 import numpy as np
-import pickle
 from flask import Flask, request, jsonify
 from model import get_dollar_estimate
 app = Flask(__name__)
